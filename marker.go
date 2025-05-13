@@ -11,7 +11,7 @@ var marker = "~~MagicMarker for maja42/ember/v1~~"
 
 func init() {
 	// Dead code that uses 'marker' and is not eliminated by the compiler.
-	if time.Now().Nanosecond() == -42 {
+	if time.Now().Nanosecond() == 42 {
 		fmt.Print(marker)
 	}
 }
